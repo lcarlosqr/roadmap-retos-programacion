@@ -1,0 +1,33 @@
+# https://www.python.org/
+
+# Se usa # para una "linea de comentario"
+
+"""
+========================================
+Se usa la triple comilla \""" para 
+escribir comentarios de multiples lineas
+en vez de comillas dobles se puede usar
+las comilla unica ''' de esta forma '''
+========================================
+"""
+
+'''Investigando encontre que no existen 
+valores constantes en Python, solo variables.
+Por recomendacion la comunidad se suele usar 
+variables en mayusculas como "PI" o "GRAVEDAD"
+de este modo se sabe que no se deben modificar
+pero son variables a fin de cuentas por lo que
+se debe evitar modificar
+'''
+
+PI = 3.1416                    # variable que emula como constante
+
+hola = "Hola soy Luis Carlos"  # string
+Py = 'Python!'                 # string
+NumeroFavorito = 5             # valor entero
+Programador = True             # valor booleano
+peso_kg = 75.5                 # valor flotante
+
+print("¡Hola,", Py)
+print("\"¡Hola,", Py, end="\"")
+
